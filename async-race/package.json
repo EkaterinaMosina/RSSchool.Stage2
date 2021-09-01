@@ -1,0 +1,63 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.1",
+  "description": "WebPack: HTML, CSS, SCSS, JS, Img, Fonts",
+  "main": "",
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --env development",
+    "lint": "eslint ./**/*.ts",
+    "lint:fix": "eslint --fix --ext .ts .",
+    "clear": "del-cli dist",
+    "format:all": "prettier --write \"src/**/*.ts\""
+  },
+  "author": "Netizen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Net-zen/webpack-boilerplate.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.22.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^3.6.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "del-cli": "^3.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-webpack-plugin": "^2.5.4",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^5.3.1",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.3.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.4.7",
+    "loader-utils": "^2.0.0",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
