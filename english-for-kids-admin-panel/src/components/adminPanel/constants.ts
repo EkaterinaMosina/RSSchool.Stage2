@@ -1,0 +1,9 @@
+export const CATEGORIES = 'categories';
+export const PLAY = '.play';
+export const AUDIO = '.audio';
+export const WORD = '#create-word';
+export const WORD_TRANSL = '#create-transl';
+export const WORD_IMG = '#create-img';
+export const WORD_AUDIO = '#create-audio';
+export const MY_IMAGE = 'myImage';
+export const MY_AUDIO = 'myAudio';

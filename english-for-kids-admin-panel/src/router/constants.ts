@@ -1,0 +1,1 @@
+export const SECRET_FIELD = 'katundra';
