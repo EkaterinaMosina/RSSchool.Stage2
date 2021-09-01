@@ -1,0 +1,33 @@
+.nav__elem {
+    text-decoration: none;
+    color: black;
+    width: 96px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 25%;
+    &:hover {
+        background-color: #40bcc225;
+    }
+    &:nth-child(1) {
+        background-image: url(../../assets/exclamation.svg);  
+    }
+    &:nth-child(2) {
+        background-image: url(../../assets/folder.svg);  
+    }
+    &:nth-child(3) {
+        background-image: url(../../assets/settings.svg);  
+    }
+    .info {
+        margin-top: 20px;
+    }
+}
+.active {
+    background-color: #40bbc250;
+    pointer-events: none;
+}

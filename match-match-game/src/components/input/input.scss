@@ -1,0 +1,41 @@
+.input {
+    height: 22px;
+    width: 100%;
+    background: transparent;
+    border: none; 
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}
+.valid {
+    background-image: url(../../assets/checked-icon.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.invalid {
+    background: none;
+    border: 2px solid red;
+}
+.error {
+    width : 100%;
+    padding: 0;
+    font-size: 80%;
+    
+  }
+  
+  .error-active {
+    width : 100%;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+    font-size: 100%;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.473);
+    
+    border-radius: 0px 0px 3px 3px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 56px;
+    left: 0;
+  }

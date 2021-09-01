@@ -1,0 +1,17 @@
+/*.button {
+    margin: 0;
+    background-color: #e56a76d0;
+    height: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+        background-color: #ca5763d0; 
+    }
+    &:active {
+        transform: scale(.9);
+    }
+}*/

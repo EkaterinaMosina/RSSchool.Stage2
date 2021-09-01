@@ -1,0 +1,17 @@
+.form__field {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: 330px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-bottom: 30px;
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &:nth-child(3) {
+        margin: 0;
+    }
+}

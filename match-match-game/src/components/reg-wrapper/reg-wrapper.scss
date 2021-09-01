@@ -1,0 +1,19 @@
+$rose:#E56A77;  
+$violet:#8B71B5;
+$aqua:#53ECF4;
+.registration__wrapper {
+    width: 640px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: $rose;
+    transition: all .8s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    .cap {
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,18 @@
+.player {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    .player__ico {
+        width: 33px;
+        height: 33px;
+        border-radius: 3px;
+        border: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 20px;
+    } 
+    
+}

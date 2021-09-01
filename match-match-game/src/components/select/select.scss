@@ -1,0 +1,15 @@
+$rose:#E56A77;  
+$violet:#8B71B5;
+$aqua:#53ECF4;
+
+.select {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 256px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid $rose;
+    background-color:  #e56a7628;
+    cursor: pointer;
+}

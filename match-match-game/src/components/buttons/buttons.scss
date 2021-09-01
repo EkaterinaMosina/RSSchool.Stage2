@@ -1,0 +1,35 @@
+$rose:#E56A77;  
+$violet:#8B71B5;
+$aqua:#53ECF4;
+.buttons {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+} 
+.button {
+    cursor: pointer;
+    margin: 0;
+    height: 36px;
+    border-radius: 3px;
+    border: none;
+    transition: .3s;
+    &:active {
+        transform: scale(.9);
+    }
+}
+.button_submit{
+    margin-right: 10px;
+    width: 108px;
+    background: $aqua;
+    &:hover {
+        background: #41bbc2;
+    }
+}
+.button_reset {
+    width: 93px;
+    background: $violet;
+    &:hover {
+        background: #675486;
+    }
+}

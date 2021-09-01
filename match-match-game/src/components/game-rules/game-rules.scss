@@ -1,0 +1,91 @@
+.game-rules {
+    background-color:  #e56a7628;
+    box-sizing: border-box;
+    padding: 50px 150px;
+    width: 1000px;
+    box-shadow: 2px 2px 15px #72343a9c;
+    display: flex;
+    flex-direction: column;
+    .cap {
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    .rules {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .rules__item {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .rules__number {
+                background-size: 50px;
+                margin: 0;
+                width: 50px;
+                height: 50px;
+                font-size: 14px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .rules__example {
+                margin: 0; 
+                
+            }
+            &:nth-child(1){
+                margin-bottom: 20px;
+                .rules__number{
+                    background: url(../../assets/rule1.svg) no-repeat;
+                    
+                }
+                .rules__example {
+                    background: url(../../assets/registration.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 250px;
+                    height: 150px;
+                }
+                
+            }
+            &:nth-child(2){
+                margin-bottom: 20px;
+                .rules__number{
+                    background: url(../../assets/rule2.svg) no-repeat;
+                    
+                }
+                .rules__example {
+                    height: 50px;
+                    width: 250px;
+                    background: url(../../assets/game-settings.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+            &:nth-child(3){
+                .rules__number{
+                    background: url(../../assets/rule3.svg) no-repeat;
+                }
+                .rules__example {
+                    height: 110px;
+                    width: 250px;
+                    background: url(../../assets/game-field.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+            }
+            
+            .rules__info {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                margin: 0;
+                width: 250px;
+            }
+            
+        }
+    }
+}

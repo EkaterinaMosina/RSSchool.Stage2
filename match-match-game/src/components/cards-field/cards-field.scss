@@ -1,0 +1,21 @@
+.cards-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.simple-game {
+    .card-container {
+        height: 80px;
+        flex: 1 0 22%;
+    }
+}
+.hard-game {
+.card-container {
+    height: 50px;
+    flex: 1 0 14%;
+    }
+}
